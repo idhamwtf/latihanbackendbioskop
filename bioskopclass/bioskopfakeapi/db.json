@@ -1,0 +1,374 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "dobleh",
+      "password": "qwe",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "jamal",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": 4
+    },
+    {
+      "username": "idham",
+      "password": "asd",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "username": "coba",
+      "password": "coba1",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "username": "tes",
+      "password": "123",
+      "role": "user",
+      "id": 7
+    },
+    {
+      "username": "dobleh2",
+      "password": "123",
+      "role": "user",
+      "id": 8
+    },
+    {
+      "username": "idham2",
+      "password": "123",
+      "role": "user",
+      "id": 9
+    },
+    {
+      "username": "idham3",
+      "password": "222",
+      "role": "user",
+      "id": 10
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "Studio 1",
+      "jumlahKursi": 260
+    },
+    {
+      "id": 2,
+      "nama": "Studio 2",
+      "jumlahKursi": 240
+    },
+    {
+      "id": 3,
+      "nama": "Studio 3",
+      "jumlahKursi": 200
+    },
+    {
+      "nama": "Studio 4",
+      "jumlahKursi": "160",
+      "id": 5
+    },
+    {
+      "nama": "Studio 4 3D",
+      "jumlahKursi": "100",
+      "id": 6
+    },
+    {
+      "nama": "Studio 5 3D",
+      "jumlahKursi": "30",
+      "id": 8,
+      "studio": "Studio 5 3D"
+    }
+  ],
+  "movies": [
+    {
+      "title": "Jumanji: The Next Level",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157422945871583_287x421.jpg",
+      "sinopsis": "Dwayne Johnson, Karen Gillan, Jack Black dan Kevin Hart kembali ke Jumanji, keempatnya harus menyelamatkan salah satu teman mereka. Namun permainan telah berubah. Para pemain kini harus lebih berani melintasi rintangan ekstrem dan kembali dengan selamat dari permainan paling berbahaya di dunia.",
+      "sutradara": "Jake Kasdan",
+      "genre": "Action",
+      "durasi": "121",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        12,
+        14,
+        16
+      ],
+      "trailer": "",
+      "studioId": "1",
+      "id": 1
+    },
+    {
+      "title": "Last Christmas",
+      "image": "https://media.21cineplex.com/webcontent/gallery/pictures/157285280844221_287x421.jpg",
+      "sinopsis": "Kate (Emilia Clarke) adalah seorang wanita muda yang mengambil keputusan buruk. Kencan terakhirnya berakhir dengan bencana? Saat diterima di sebuah toko pernak-pernik natal dan berperan sebagai Peri ia bertemu dengan Tom (Henry Golding), Hidupnya berubah lagi. Bagi Kate, sepertinya terlalu bagus untuk menjadi kenyataan.",
+      "sutradara": "Paul Feig",
+      "genre": "Romance",
+      "durasi": "103",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        12,
+        14,
+        16,
+        20
+      ],
+      "trailer": "https://www.youtube.com/embed/z9CEIcmWmtA",
+      "studioId": "1",
+      "id": 2
+    },
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9nrOnN8sYfZZHJ06EIBSoEO5qjx7uHHEs6VtKNplGVuGhZuC",
+      "sinopsis": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and is invited to study at Hogwarts. Even as he escapes a dreary life and enters a world of magic, he finds trouble awaiting him.",
+      "sutradara": "Chris Columbus",
+      "genre": "Fantasy Fiction",
+      "durasi": "152",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        14,
+        16,
+        18
+      ],
+      "trailer": "https://www.youtube.com/embed/VyHV0BRtdxo",
+      "studioId": "2",
+      "id": 3
+    },
+    {
+      "title": "Harry Potter and the Chamber of Secrets",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTltzcooPkGcy1fKKqzSuO8U6S9XBpNDR9MuYc9SS_L5AbAn66O",
+      "sinopsis": "A house elf warns Harry against returning to Hogwarts, but he decides to ignore it. When students and creatures at the school begin to get petrified, Harry finds himself surrounded in mystery.",
+      "sutradara": "Chris Columbus",
+      "genre": "Fantasy",
+      "durasi": "174",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        14,
+        16
+      ],
+      "trailer": "https://www.youtube.com/embed/1bq0qff4iF8",
+      "studioId": "1",
+      "id": 4
+    },
+    {
+      "title": "123",
+      "image": "213",
+      "sinopsis": "123",
+      "sutradara": "123",
+      "genre": "123",
+      "durasi": "123",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        16
+      ],
+      "trailer": "123",
+      "studioId": "6",
+      "id": 5
+    },
+    {
+      "title": "asd",
+      "image": "a",
+      "sinopsis": "a",
+      "sutradara": "asd",
+      "genre": "asd",
+      "durasi": "1",
+      "produksi": "RANS ENTERTAINMENT",
+      "jadwal": [
+        14
+      ],
+      "trailer": "a",
+      "studioId": "8",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "userId": 3,
+      "movieId": 1,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "movieId": 1,
+      "totalharga": 25000,
+      "jadwal": 14,
+      "bayar": false,
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "movieId": 1,
+      "totalharga": 50000,
+      "jadwal": 14,
+      "bayar": false,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "movieId": 1,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "movieId": 6,
+      "totalharga": 25000,
+      "jadwal": 12,
+      "bayar": false,
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "movieId": 1,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "movieId": 3,
+      "totalharga": 75000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "movieId": 2,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "movieId": 2,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 9
+    }
+  ],
+  "ordersDetails": [
+    {
+      "orderId": 1,
+      "seat": 9,
+      "row": 0,
+      "id": 1
+    },
+    {
+      "orderId": 1,
+      "seat": 10,
+      "row": 0,
+      "id": 2
+    },
+    {
+      "orderId": 2,
+      "seat": 10,
+      "row": 0,
+      "id": 3
+    },
+    {
+      "orderId": 3,
+      "seat": 11,
+      "row": 1,
+      "id": 4
+    },
+    {
+      "orderId": 3,
+      "seat": 12,
+      "row": 1,
+      "id": 5
+    },
+    {
+      "orderId": 4,
+      "seat": 10,
+      "row": 2,
+      "id": 6
+    },
+    {
+      "orderId": 4,
+      "seat": 11,
+      "row": 2,
+      "id": 7
+    },
+    {
+      "orderId": 5,
+      "seat": 10,
+      "row": 0,
+      "id": 8
+    },
+    {
+      "orderId": 6,
+      "seat": 9,
+      "row": 4,
+      "id": 9
+    },
+    {
+      "orderId": 6,
+      "seat": 10,
+      "row": 4,
+      "id": 10
+    },
+    {
+      "orderId": 7,
+      "seat": 12,
+      "row": 2,
+      "id": 11
+    },
+    {
+      "orderId": 7,
+      "seat": 11,
+      "row": 2,
+      "id": 12
+    },
+    {
+      "orderId": 7,
+      "seat": 10,
+      "row": 2,
+      "id": 13
+    },
+    {
+      "orderId": 8,
+      "seat": 11,
+      "row": 3,
+      "id": 14
+    },
+    {
+      "orderId": 8,
+      "seat": 10,
+      "row": 2,
+      "id": 15
+    },
+    {
+      "orderId": 9,
+      "seat": 11,
+      "row": 6,
+      "id": 16
+    },
+    {
+      "orderId": 9,
+      "seat": 12,
+      "row": 6,
+      "id": 17
+    }
+  ],
+  "transactions": [],
+  "transactionsDetails": []
+}
