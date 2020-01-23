@@ -263,6 +263,30 @@
       "jadwal": 12,
       "bayar": true,
       "id": 9
+    },
+    {
+      "userId": 5,
+      "movieId": 1,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 10
+    },
+    {
+      "userId": 5,
+      "movieId": 2,
+      "totalharga": 50000,
+      "jadwal": 12,
+      "bayar": true,
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "movieId": 4,
+      "totalharga": 50000,
+      "jadwal": 14,
+      "bayar": true,
+      "id": 12
     }
   ],
   "ordersDetails": [
@@ -367,6 +391,42 @@
       "seat": 12,
       "row": 6,
       "id": 17
+    },
+    {
+      "orderId": 10,
+      "seat": 13,
+      "row": 3,
+      "id": 18
+    },
+    {
+      "orderId": 10,
+      "seat": 12,
+      "row": 3,
+      "id": 19
+    },
+    {
+      "orderId": 11,
+      "seat": 13,
+      "row": 5,
+      "id": 20
+    },
+    {
+      "orderId": 11,
+      "seat": 12,
+      "row": 5,
+      "id": 21
+    },
+    {
+      "orderId": 12,
+      "seat": 9,
+      "row": 3,
+      "id": 22
+    },
+    {
+      "orderId": 12,
+      "seat": 10,
+      "row": 3,
+      "id": 23
     }
   ],
   "transactions": [],
